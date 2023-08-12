@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #333;
+}
+
+
+.Clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+#clock{
+    text-shadow:  2px 2px rgba(5, 79, 66, .6);
+    width: 400px;
+    height: auto;
+    box-shadow: 4px 10px 10px 0 rgb(255, 171, 61);
+    background-color: rgb(10, 255, 214);
+    color: rgb(4, 63, 52);
+    font-size: 60px;
+    border-radius: 30px;
+    padding: 20px;
+    border:  4px solid #333333;
+}
+
+#clock:hover{
+    background-color: rgb(255, 171, 61);
+    box-shadow: 4px 10px 10px 0 rgb(10, 255, 214);
+}
